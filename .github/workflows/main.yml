@@ -1,1 +1,25 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+jops:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: "Testing githup Action"
+        run: pwd
+
+
+      - name: "Testing print"
+        run: echo mohamed
+
+
+
+
+
 
