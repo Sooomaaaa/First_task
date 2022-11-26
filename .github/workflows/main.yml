@@ -7,17 +7,15 @@ on:
 
 jops:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
 
 
     steps:
-      - name: "Testing githup Action"
-        run: pwd
+      - name: "print folder contant"
+        run: ls
 
 
-      - name: "Testing print"
-        run: echo mohamed
-
+    
 
 
 
