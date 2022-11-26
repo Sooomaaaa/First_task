@@ -5,14 +5,18 @@ on:
 
 
 
+
+6+9
 jops:
   build:
     runs-on: ubuntu-latest 
 
 
-    steps:
-      - name: "print folder contant"
-        run: ls
+    steps: 
+      - uses : actions/checkout@v3
+      
+      - name: " after print folder contant"
+        run: docker login --username Sooomaaaa --password dckr_pat_nh1X8y-i84q8ktOIIrxicgkY2sE
 
 
     
